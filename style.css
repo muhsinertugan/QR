@@ -1,0 +1,75 @@
+* {
+    --whitsh: hsl(0, 0%, 100%);
+    --grayish: hsl(212, 45%, 89%);
+    --bluish: hsl(220, 15%, 55%);
+    --darkish-blue: hsl(218, 44%, 22%);
+    font-size: 15px;
+    box-sizing: border-box;
+}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+body{
+    background-color: var(--grayish);
+    font-family: 'Outfit', sans-serif;
+}
+
+.main-card{
+    background-color: var(--whitsh);
+    max-width: 350px;   
+    max-height: 550px;
+    border-radius: 20px;
+    margin: 100px auto;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    padding: 0.5em;
+    justify-content: center;
+}
+
+
+
+img{
+    width: 99%;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    display: block;
+    border-radius: 20px;
+}
+
+p {
+    text-align: center;
+    font-family: inherit;
+}
+
+.text-box {
+    margin: 1rem auto;
+}
+
+.first-line {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.second-line {
+    width: 60%;
+    margin: 15px  auto;
+    font-size: 15px;
+    color: var(--bluish);
+}
+
+.attribution {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    font-size: 10px;
+}
+
+a {
+    font-size: 10px;
+}
+
+a:hover{
+    color: var(--darkish-blue);
+}
